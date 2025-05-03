@@ -1,10 +1,30 @@
 # Engeto_project_Task_manager
 
-# Správce úkolů
-Tento správce úkolů je konzolová aplikace vytvořená v Pythonu. Umožňuje uživateli spravovat seznam úkolů pomocí hlavního menu, kde lze úkoly přidávat, zobrazovat a mazat.
+Popis projektu
+Tento projekt představuje správce úkolů (Task Manager) vytvořený v jazyce Python v rámci Engeto Python Akademie.
 
-# Funkce
-1. Přidání nového úkolu s názvem a popisem
-2. Zobrazení všech aktuálních úkolů
-3. Odstranění vybraného úkolu podle pořadí
-4. Možnost ukončit program kdykoli
+Projekt se skládá ze dvou částí:
+
+Python skriptu task_manager.py, který umožňuje:
+
+přidávat úkoly,
+
+zobrazovat seznam úkolů,
+
+mazat úkoly ze seznamu,
+
+ovládat aplikaci přes textové menu.
+
+Testovací dokumentace testovaci_pripady_task_manager.xlsx, která obsahuje:
+
+testovací případy pro všechny funkce (hlavni_menu, pridat_ukol, zobrazit_ukoly, odstranit_ukol),
+
+pozitivní, negativní a hraniční scénáře,
+
+popis kroků testování, očekávané a skutečné výsledky, poznámky a stav testu.
+
+Spuštění programu
+Otevřete příkazový řádek nebo terminál.
+
+Spusťte soubor pomocí:
+python task_manager.py
